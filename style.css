@@ -43,8 +43,6 @@ header.scrolled {
     height: 120px;
     width: 120px;
     transition: all 0.3s ease;
-
-
 }
 
 .nav-link {
@@ -67,15 +65,25 @@ header.scrolled {
     left: 50%;
     width: 0;
     height: 2px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-light);
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
 
 .nav-link:hover::after,
 .nav-link.active::after {
-    width: 70%;
+    width: 100%;
 }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
 
 /* Hero Section */
 #home {
@@ -291,6 +299,11 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 1.5rem;
+}
+
+.submit-btn {
+    height: 47px;
+    border-radius: 10%;
 }
 
 .footer-link {
