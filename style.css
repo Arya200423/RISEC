@@ -188,7 +188,7 @@ header.scrolled {
     align-items: center;
     justify-content: center;
     margin: 0 auto 1.5rem;
-    background: linear-gradient(360deg, var(--primary-color), #DDDEAB);
+    background: linear-gradient(360deg, var(--primary-color), #528fe3);
     color: EEEEEE;
     border-radius: 50%;
     font-size: 1.75rem;
