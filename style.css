@@ -88,7 +88,7 @@ header.scrolled {
 /* Hero Section */
 #home {
     background: linear-gradient(360deg, var(--primary-color), #A2AF9B);
-    min-height: 80vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     position: relative;
