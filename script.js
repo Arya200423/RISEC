@@ -48,7 +48,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     e.preventDefault(); // prevent normal form submission
 
     // ✅ Admin WhatsApp number (no + or spaces)
-    const adminNumber = "918767963513"; // Example: +91 8767963513 → 918767963513
+    const adminNumber = "9184210 47936";
 
     // ✅ Get user input values
     const name = document.getElementById("name").value.trim();
