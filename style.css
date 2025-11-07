@@ -133,6 +133,30 @@ header.scrolled {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Custom About Image Styling */
+.custom-about-img {
+    width: 600px;
+    /* Keeps it responsive */
+    max-width: 1000px;
+    /* Restricts max width */
+    height: 500px;
+    /* Maintains aspect ratio */
+    border-radius: 12px;
+    object-fit: cover;
+    /* Crops neatly if resized */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    .custom-about-img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
 /* ============================= */
 /* 🎠 CAROUSEL SECTION */
 /* ============================= */
